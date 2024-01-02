@@ -12,7 +12,7 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "ANOKHI_TG")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "L2R_KING0")
 # Get Your bot username
 BOT_USERNAME = getenv("BOT_USERNAME", "LOVER_X_MUSIC_BOT")
 # Don't Add style font 
@@ -29,7 +29,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 10000))
 LOGGER_ID = int(getenv("LOGGER_ID", --1001909684210))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "6420317225"))
+OWNER_ID = int(getenv("OWNER_ID", "6052880487"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,15 +39,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/code663/DAXXMUSIC",
+    "https://github.com/BWFXMUSIC/NOLOVE",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ANGEL_K_WORLD")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/DIL_TO_PAGAL_HAI_01")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MUSICBOT_OWNER")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BWF_MUSIC1")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
